@@ -69,6 +69,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
+    /* giving 1px border around the container */
+    border: 1px solid gray;
+    padding: 20px 50px 0px 50px;
 }
 
 .top-content {
@@ -101,7 +105,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +148,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* My Codes are below*/
+
+/* Start of Navigation */
+
+header.navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.nav-list {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end of navigation */
+
+.top-content img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.boxes div.box1 {
+    background: teal;
+}
+
+.boxes div.box2 {
+    background: gold;
+}
+.boxes div.box3 {
+    background: cadetblue;
+}
+.boxes div.box4 {
+    background: coral;
+}
+
+.boxes div.box5 {
+    background: crimson;
+}
+
+.boxes div.box6 {
+    background: forestgreen;
+}
+
+.boxes div.box7 {
+    background: darkorchid;
+}
+
+.boxes div.box8 {
+    background: hotpink;
+}
+
+.boxes div.box9 {
+    background: indigo;
+}
+
+.boxes div.box10 {
+    background: dodgerblue;
+}
+
