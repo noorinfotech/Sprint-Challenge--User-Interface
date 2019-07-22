@@ -94,6 +94,8 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -114,6 +116,19 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: boxes;
+    animation-duration: 6s;
+	animation-direction: reverse;  
+}
+
+@keyframes boxes {
+
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:blue; left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+
 }
 
 .bottom-content {
