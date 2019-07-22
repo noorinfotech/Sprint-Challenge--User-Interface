@@ -72,7 +72,7 @@ p {
 
     /* giving 1px border around the container */
     border: 1px solid gray;
-    padding: 20px 50px 0px 50px;
+    padding: 20px 50px;
 }
 
 .top-content {
