@@ -1,0 +1,45 @@
+.product-top {
+    display: block;
+}
+
+.product-top div.text-container {
+    width: 100%;
+}
+
+
+
+.product-boxes div img {
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.product-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-boxes div {
+    border: 3px solid blue;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.product-boxes h2 {
+    padding: 20px;
+}
+
+.product-1 {
+    border-radius: 150px 20px 10px 15px;
+}
+
+.product-2 {
+    border-radius: 20%;
+}
+
+.product-3 {
+    border-radius: 10px 150px 20px 100px;
+}
